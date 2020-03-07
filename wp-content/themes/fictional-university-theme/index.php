@@ -3,8 +3,10 @@
       echo "<p>Hello, this is my first function.</p>";
   }
 
-  myFirstFunction();
-  myFirstFunction();
-  myFirstFunction();
+  function greet($name, $color) {
+      echo "<p>Hi, my name is <b><font color=\"$color\">$name</font></b> and my favorite color is <font color=\"$color\">$color</font>.</p>";
+  }
 
+  greet('John', 'blue');
+  greet('Jane', 'green');
 ?>
